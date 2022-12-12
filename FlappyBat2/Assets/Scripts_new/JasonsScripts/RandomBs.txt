@@ -1,0 +1,60 @@
+
+firingAngle = firingAngle.rotate(0, 0, Offset);
+
+
+
+**** OLD CODE FOR COLLISION IGNORING BASED ON TAGS 
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Projectile")
+        {
+            // If the Collider2D component is enabled on the collided object
+            if (collision.collider == true)
+            {
+            // Disables the Collider2D component
+                Debug.Log(collision.gameObject.name);
+            }
+
+            //Physics2D.IgnoreCollision( collision.gameObject.GetComponent<Collider2D>() , col.GetComponent<Collider2D>() );
+        }
+        Debug.Log(collision.gameObject.name);
+    }
+
+            if (collision.gameObject.tag == "Projectile")
+        {
+            // If the Collider2D component is enabled on the collided object
+            if (collision.collider == true)
+            {
+            // Disables the Collider2D component
+                Debug.Log(collision.gameObject.name);
+            }
+
+            Physics2D.IgnoreCollision( collision.gameObject.GetComponent<Collider2D>() , col.GetComponent<Collider2D>() );
+        }
+        if (collision.gameObject.tag == "Player_Avatar")
+        {
+            // If the Collider2D component is enabled on the collided object
+            if (collision.collider == true)
+            {
+            // Disables the Collider2D component
+                Debug.Log(collision.gameObject.name);
+            }
+
+            Physics2D.IgnoreCollision( collision.gameObject.GetComponent<Collider2D>() , col.GetComponent<Collider2D>() );
+        }
+
+
+
+
+
+
+
+// Create a rotation from euler angles, using our calculated angle for the z axis
+Quaternion bulletRotation =  Quaternion.Euler(new Vector3(0, 0, angle));
+ 
+// Instantiate the bullet using our new rotation
+GameObject bullet = (GameObject)GameObject.Instantiate(bulletPrefab, transform.position, bulletRotation);
+ 
+// Apply stray
+bullet.transform.Rotate(0, 0, Random.Range(-10,10));
