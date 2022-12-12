@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class AppleATTManager : MonoBehaviour
 {
-    void Start()
+    void Awake()
     {
         RequestTrackingPermission();
     }
