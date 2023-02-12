@@ -15,7 +15,8 @@ public class Projectile : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D col ;
 
-    public int MaxCollisions = 2 ;
+    public int MaxCollisions = 1 ;
+    public float timeToDestroyAfterCollision= 10;
     private int NumCollisions = 0;
     public float MaxLifetime = 5f ;
 
@@ -42,7 +43,7 @@ public class Projectile : MonoBehaviour
         {
             gameObject.GetComponent<Renderer>().enabled = false;
             rb.bodyType = RigidbodyType2D.Static;
-            Destroy(gameObject, 3);
+            Destroy(gameObject, timeToDestroyAfterCollision);
         }
         
     }

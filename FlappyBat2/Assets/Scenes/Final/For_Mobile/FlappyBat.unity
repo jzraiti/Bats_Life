@@ -1558,9 +1558,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreManager: {fileID: 1071909455}
-  MushroomNumProjectiles: 60
+  MushroomNumProjectiles: 90
   MushroomOffset: 100
-  effectLength: 20
+  effectLength: 35
 --- !u!1 &866086345
 GameObject:
   m_ObjectHideFlags: 0
@@ -2185,6 +2185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -3985,9 +3986,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 839008618, guid: b79269880bb5c4f79afd9c33cc512680, type: 3}
+      propertyPath: gravity
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 839008618, guid: b79269880bb5c4f79afd9c33cc512680, type: 3}
+      propertyPath: jumpVelocity
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 839008618, guid: b79269880bb5c4f79afd9c33cc512680, type: 3}
+      propertyPath: forwardVelocity
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 839008619, guid: b79269880bb5c4f79afd9c33cc512680, type: 3}
       propertyPath: Offset
-      value: 77
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 839008619, guid: b79269880bb5c4f79afd9c33cc512680, type: 3}
       propertyPath: m_Enabled
@@ -3995,7 +4008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 839008619, guid: b79269880bb5c4f79afd9c33cc512680, type: 3}
       propertyPath: NumProjectiles
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 529319066837480457, guid: b79269880bb5c4f79afd9c33cc512680, type: 3}
       propertyPath: m_RootOrder
