@@ -50,9 +50,9 @@ public class SkinManagerScript : MonoBehaviour
         conditionDict.Add(2, 50);
         conditionDict.Add(3, 100);
         conditionDict.Add(4, 200);
-        conditionDict.Add(5, 500);
-        conditionDict.Add(6, 1000);
-        conditionDict.Add(7, 2000);
+        conditionDict.Add(5, 300);
+        conditionDict.Add(6, 500);
+        conditionDict.Add(7, 1000);
 
         colorDict.Add(0, new Color(0, 255, 0));
         colorDict.Add(1, new Color(255, 0, 235));

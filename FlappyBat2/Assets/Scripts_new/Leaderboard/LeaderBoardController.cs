@@ -59,9 +59,6 @@ public class LeaderBoardController : MonoBehaviour
             Instructions.SetActive(false);
         }
 
-
-
-
         // get our highscore 
         highScoreCount = (int)PlayerPrefs.GetFloat("HighScore", 0.0f);
 
@@ -116,36 +113,9 @@ public class LeaderBoardController : MonoBehaviour
                 Debug.Log("failed: " + response.Error);
             }
         });
-
-        /*
-        LootLockerSDKManager.GetScoreList(ID, MaxScores, (response) =>
-        {
-            if (response.success)
-            {
-                Debug.Log("success");
-                LootLockerLeaderboardMember[] scores = response.items;
-                for (int i=0; i < scores.Length; i++)
-                {
-                    Entries[i].text = $"{scores[i].rank}.   {scores[i].member_id}   {scores[i].score}";
-                }
-
-                if ( scores.Length < MaxScores)
-                {
-                    for (int i = scores.Length; i < MaxScores; i++)
-                    {
-                        Entries[i].text = (i + 1).ToString() + ".     NONE";
-                    }
-                }
-            }
-            else
-            {
-                Debug.Log("Fail");
-            }
-        });
-        */
     }
 
-    public void SubmitScore() // plays an ad when activated as well
+    public void SubmitScore() 
     {
 
         if (batName == "")
@@ -159,6 +129,18 @@ public class LeaderBoardController : MonoBehaviour
 
         LootLockerSubmitScore();
     }
+
+    public void SubmitAndGetScores()
+    {
+        Debug.Log("submitting scores...");
+
+        SubmitScore();
+
+        Debug.Log("getting scores...");
+
+        ShowScores();
+    }
+
 
     private void LootLockerSubmitScore()
     {

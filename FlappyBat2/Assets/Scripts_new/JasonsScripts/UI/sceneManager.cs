@@ -25,4 +25,8 @@ public class sceneManager : MonoBehaviour
     {
         SceneManager.LoadScene("Skins");
     }
+    public void LoadDonate()
+    {
+        SceneManager.LoadScene("Donate");
+    }
 }

@@ -5,9 +5,9 @@
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "2.0.0"
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
-      "hash": "4b1f9e5ea56c89df9c7decd54e5d901547315c79"
+      "hash": "5d65fcc9d6683c9883301d8c2088b8e24201aa83"
     },
     "com.unity.2d.animation": {
       "version": "7.0.9",
@@ -92,13 +92,6 @@
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.ads.ios-support": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
@@ -188,25 +181,6 @@
         "com.unity.nuget.newtonsoft-json": "3.0.2",
         "com.unity.modules.androidjni": "1.0.0"
       },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.services.mediation": {
-      "version": "1.0.5",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.settings-manager": "1.0.3",
-        "com.unity.modules.ui": "1.0.0",
-        "com.unity.services.core": "1.4.0",
-        "com.unity.ugui": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.settings-manager": {
-      "version": "1.0.3",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {

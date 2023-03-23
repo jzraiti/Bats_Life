@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final/For_Mobile/Skins.unity
     guid: 6c649db2112e6417d8e5245240f37bfb
+  - enabled: 1
+    path: Assets/Scenes/Final/For_Mobile/Donate.unity
+    guid: 913d0bd6b909448dba820cb8388313b6
   m_configObjects: {}

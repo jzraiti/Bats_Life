@@ -13,12 +13,12 @@ public class BatFactScript : MonoBehaviour
         "Bat Fact: Over half of all bat species in the USA are endangered",
         "Bat Fact: Blood is a vampire bat’s only source of food and water. Because of that they can’t go more than 2 days without feeding.",
         "Bat Fact: Bats have the capacity to eat insects equal to half their body weight every night. They can eat up to 1,200 mosquitoes in an hour.",
-        "Bat Fact: Well-fed bats will regurgitate blood and share it with other bats to keep them alive.",
+        "Bat Fact: Vampire bats will regurgitate blood and share it with other bats who are starving to help keep them alive.",
         "Bat Fact: Baby bats are also known to babble like human children.",
         "Bat Fact: The “giant golden-crowned flying fox” is a massive species of bats that has a five-foot wingspan",
         "Bat Fact: If there were no bats, the world would not have tequila. The agave plant from which tequila is made is pollinated by the bats.",
         "Bat Fact: Mexican free-tailed bats use sound to sabotage and jam the sensors of rival bats. Then they steal their prey",
-        "Bat Fact: The largest bat colony in the world is in San Antonio, Texas",
+        "Bat Fact: The largest bat colony in the world is in San Antonio, Texas with a population of over 15 million bats in one cave.",
         "Bat Fact: Millions of bats are dying from the “white-nose syndrome” in North America that the scientists have no idea how to treat",
         "Bat Fact: Red bats (Lasiurus spp) begin mating in flight",
         "Bat Fact: Mother bats use a version of baby talk to communicate with their pups and encourage vocal development",
@@ -34,7 +34,7 @@ public class BatFactScript : MonoBehaviour
         "Bat Fact: In many areas, availability of suitable roosts is a limiting factor to bat distribution. A quality bat house may substitute for an old, dead tree or other crevice",
         "Bat Fact: Baby bats spend the first part of their lives clinging to their mother and wrapped in her wings. Rescued orphaned bats are wrapped in blankets to mimic this experience for them. They are also often given batcifiers (pacifiers)",
         "Bat Fact: The painted bat is a gorgeous shade of orange with black wings and orange along the fingers",
-        "Bat Fact: Bats invented a unified theory of relativity over 30 million years ago, but generally prefer hanging out",
+        "Bat Fact: Bats know the meaning of life, they're just not telling you",
         "Bat Fact: Dont look but theres a bat watching you right now",
         "Bat Fact: Bats Refuse to pay taxes",
         "Bat Fact: Today is a bats birthday",
@@ -58,7 +58,9 @@ public class BatFactScript : MonoBehaviour
         "Bat Fact: Bats would never break up with you over text",
         "Bat Fact: Bats dont use single use plastics",
         "Bat Fact: Bats think you are perfect the way you are",
-        "Bat Fact: Bats have never deforested the planet"
+        "Bat Fact: Bats have never deforested the planet",
+        "Bat Fact: The Zapotec tribe worshipped a bat god named Camazotz, the DEATH BAT, based on local leaf-nosed bats that lived in the sacred cenotes.",
+        "bAt fAcT: iN bAt LaNgUaGe HuMaNs aRe CaLlEd #@$%^$#$"
     };
     // Start is called before the first frame update
     void Start()
